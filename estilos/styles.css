@@ -1,0 +1,203 @@
+
+@media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 45%;
+    }
+  }
+.contenido{
+    background: linear-gradient(to bottom, #00fa15, #000000);
+    padding: 2% 2%;
+}
+#cuadro{
+    display: flex;
+    padding: 2% 1%;
+}
+#boxtitulo{
+    text-align: center;
+    font-style: normal;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+    background-color: #81e170;
+}
+#box_cuadro1{
+    width: 48%;
+    padding: 2% 2%;
+    margin: 2% 2%;
+    text-align: left;
+}
+#boxtitulo1{
+    text-align: center;
+    font-style: normal;
+    font-size: 500%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#boxsubtitulo1{
+    text-align: center;
+    font-style: normal;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+}
+#boxsubtitulo2{
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 180%;
+    color: rgb(255, 0, 0);
+}
+#subtitulo3{
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 150%;
+    color: rgb(0, 255, 13);
+}
+#lista_prep, #subtitulo4, #box_ingredientes{
+    color: white;
+    font-size: 100%;
+}
+#lista_de_recetas{
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+#box_imagenrec{
+    height: 100%;
+    width: 100%; 
+}
+#imagen_recetas{
+    height: 100%;
+    width: 30%;
+    padding: 2% 2%;
+    margin: 2% 2%;
+    text-align: center;
+}
+#box_receta{
+    background-color: #000000;
+    padding: 2% 3%;
+    margin: 1% 15%;
+}
+#box_tit{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0% 2%;
+    text-align: center;
+}
+#box_form1{
+    background: linear-gradient(to bottom,#21dd7f, #41b43b);
+    padding: 5% 1%;
+    margin: 2% 1%;
+    text-align: left;
+    border: 1px solid rgb(114, 236, 179);
+    border-radius: 25px;
+}
+#in_nombre,#in_apellido,#in_correo,#in_reg_contra,#in_conf_contra,#in_correo_lg,#in_contra_lg{
+    width: 100%;
+    padding: 2% 2%;
+    margin: 1% 2%;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#in_gen,#in_fecha{
+    width: 22%;
+    height: 7%;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+label{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 0% 1%;
+    font-weight: bold;
+}
+#boton_m{
+    text-align: center;
+    margin: 2% 4%;
+}
+#boton_confirmar,#boton_ingresar{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 120%;
+    width: 50%;
+    padding: 1% 1%;
+    margin: 1% 1%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#boton_tengo{
+    font-size: 120%;
+    width: 50%;
+    padding: 1% 1%;
+    margin: 1% 1%;
+}
+#box_imagenperfil{
+    margin: 2% 2%;
+    text-align: center;
+}
+#imagen_perfil{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+}
+#box_im_perfil{
+    display: flex;
+    padding: 1% 1%;
+    height: 50%;
+    width: 100%;
+}
+#imagen_perfil_ev{
+    height: 100%;
+    width: 100%;
+}
+#parrafo{
+    font-size: 130%;
+    background: linear-gradient(to bottom,#229e60, #000000);
+    color: rgb(255, 255, 255);
+    padding: 2% 10%;
+    border-radius: 35px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}    
+.container h1{
+    text-align: center;
+}
+.container article ul{
+    list-style: circle;
+    text-align:left;
+}
+.container{
+    width: 100%;
+    max-height: min-content;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: linear-gradient(to bottom,#229e60, #ffffff);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.formulario{
+    width: 55%;
+    height: 150px;
+    background: linear-gradient(to bottom,#08d46e, #d5f155);
+    border:2px solid black; 
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
